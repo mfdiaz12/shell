@@ -1,1 +1,1 @@
-Shell proyect
+shell basics where am I
