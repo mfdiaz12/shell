@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod
+ln -s ls /usr/bin/ls2
