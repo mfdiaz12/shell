@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 774 holla
+chmod 754 holla
