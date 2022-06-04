@@ -1,1 +1,2 @@
 #!/bin/bash
+shmod 754 hello
