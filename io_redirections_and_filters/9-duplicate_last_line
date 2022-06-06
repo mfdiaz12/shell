@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -"$Lines1"
+tail -"1"
