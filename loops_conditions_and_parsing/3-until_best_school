@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# defines a ver number in 1 them until var aprouch to 10 print Best School and defines that munber increase one to one 
-number=1
+# defines a ver number in 0 them until var aprouch to 10 print Best School and defines that munber increase one to one 
+number=0
 until [[ $number -eq 10 ]]
 do
   echo Best School
