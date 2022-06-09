@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# this scrip create a var number then: check number is biger that 1, if this happen  
-number=10 
+# this scrip create a var number, while number that is 0 aprough to  10 mark Best School  
+number=0 
 
-while [ $number -gt 0 ] ; do
-	echo Best School
-	number=$(($number-1))
+while [[ $number -ne 10 ]]
+do
+  echo Best School
+  ((number++))
 done
