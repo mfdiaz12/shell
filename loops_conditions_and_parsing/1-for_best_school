@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # write Best Scholl the times defined in the range
- for ((i=0;i<=10;i++)) do echo "Best Scholl" ; done
+for ((i=0;i<=10;i++)) do echo "Best School" ; done
