@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-for i in " " " " " " " " " " " " " " " " " " " " ; do echo "Best Scholl $i" ; done 
+for i in " " " " " " " " " " " " " " " " " " " " ; do echo "Best Scholl $i" ; done # para la variable i en cada espacio haga imprima en la salida estandar un Best School 
