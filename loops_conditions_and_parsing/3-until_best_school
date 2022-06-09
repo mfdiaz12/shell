@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
-#
-number=10
-
-until [[ $number -lt 1 ]]
+# defines a ver number in 1 them until var aprouch to 10 print Best School and defines that munber increase one to one 
+number=1
+until [[ $number -eq 10 ]]
 do
-  echo "Best School"
-  let number=$number-1
+  echo Best School
+  ((number++))
 done
