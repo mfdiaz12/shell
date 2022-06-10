@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 #defines var number equal a 0 and it`s diferen  to 10 write Best School and this var increase one to one but when it`s equal to 9 write Hi and continue.
 number=0
-while [[ $number -ne 10 ]] do
+while [[ $number -ne 10 ]]
+do
 	((number++))
 	echo "Best School"
-	if [[ $number == '9' ]]; then
+	if [[ "$number" == '9' ]]; then
 		echo "Hi"
 		continue
 	fi
