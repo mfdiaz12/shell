@@ -1,1 +1,19 @@
 #!/usr/bin/env bash
+# 
+number=0
+while [[ $number -ne 10 ]]
+do
+        ((number++))
+        echo "Best School"
+
+	if [[ "$number" == '4' ]]; then
+		echo "bad luck"
+		continue
+
+	elif [[ "$number" == '8' ]]; then
+		echo "good luck"
+		continue
+	else
+		continue
+	fi
+done
