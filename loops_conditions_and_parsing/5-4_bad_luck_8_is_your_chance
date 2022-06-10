@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # 
-number=0
-while [[ $number -ne 10 ]]
+number=1
+while [[ $number -ne 9 ]]
 do
         ((number++))
         echo "Best School"
@@ -10,7 +10,7 @@ do
 		echo "bad luck"
 		continue
 
-	elif [[ "$number" == '8' ]]; then
+	elif [[ "$number" == '7' ]]; then
 		echo "good luck"
 		continue
 	else
