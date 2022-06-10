@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #create a var value 0 and while this is less equal  to 20 echo number 
-number=0
+number=1
 while [[ $number -le 20 ]]
 do
 	echo "$number"
