@@ -1,1 +1,15 @@
 #!/usr/bin/env bash
+#
+h=0
+
+while [[ $h -lt 13 ]]
+do
+	echo Hour:"$h"
+	((h++))
+m=1
+	while [[ $m -lt 60 ]]
+	do
+	echo "$m"
+	((m++))
+done
+done
