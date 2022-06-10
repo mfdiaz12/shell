@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#
+#Write a Bash script that displays the time for 12 hours and 59 minutes
 h=0
 
 while [[ $h -lt 13 ]]
