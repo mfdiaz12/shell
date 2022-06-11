@@ -4,12 +4,14 @@ n=1
 
 while [[ $n -le 100 ]]
 do
-	if [ $((n % 15)) -eq 0 ]
+	if [ $((n % 3)) -eq 0 ]
+	then
+	if [ $((n % 5)) -eq 0 ]
 	then
 	echo "FizzBuzz"
-	elif [ $((n % 3)) -eq 0 ]
-	then
-	echo "Fizz"	
+	else 
+	echo "Fizz"
+	fi
 	elif [ $((n % 5)) -eq 0 ]
 	then
 	echo "Buzz"
