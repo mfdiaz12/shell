@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
-#
+#Write a Bash script that stops 4-to_infinity_and_beyond process with kill.
+#search number of proces ps -ax | grep a-To_infinity_and_beyond and then kill it.
+
+kill 17596
